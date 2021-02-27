@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+</head>
+<style>
+    body{
+      height: 100wh;
+      width: 100wh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+    canvas{
+        box-shadow: #ccc 20px 10px 50px;
+    }
+
+    .snake{
+        background-color: hsl(100, 100%, 40%);
+        border: .25vmin solid black;
+    }
+
+    .food{
+        background-color: hsl(50, 100%, 50%);
+        border: .25vmin solid black;
+    }
+</style>
+<body>
+    <div>
+        <h1>Snake</h1>
+        <canvas id="gameBoard" width="400" height="400" ></canvas>
+    </div>
+    
+</body>
+<script src="game.js" defer type="module">
+
+</script>
+</html>
